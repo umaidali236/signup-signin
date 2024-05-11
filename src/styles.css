@@ -13,7 +13,7 @@ html {
     font-size: 62.5%;
 }
 
- .container {
+.container {
     width: 100%;
     height: 100vh;
     background-color: #127103;
@@ -57,7 +57,7 @@ html {
 .circle {
     width: 3rem;
     height: 3rem;
-    background-color: #FFC94A;
+    background-color: #ff8600;
     border-radius: 50%;
     margin-right: 1rem;
 }
@@ -72,7 +72,7 @@ html {
 .nav-item {
     font-size: 1.6rem;
     font-weight: bold;
-    color: #F0E3C1;
+    color: #cbbaff;
     transition: color 0.3s;
 }
 
@@ -105,7 +105,7 @@ html {
     font-size: 7rem;
     font-weight: bold;
     text-align: center;
-    color: #FFC94A;
+    color: #ff8600;
     margin-top: 6rem;
     text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
 }
@@ -147,7 +147,7 @@ html {
 }
 
 .contact p a {
-    color: #1D90F5;
+    color: #127103;
 }
 
 .input-group {
@@ -160,7 +160,7 @@ html {
 .input-group input {
     width: 100%;
     height: 100%;
-    background-color: #e3d5df;
+    background-color: white;
     border: none;
     border-radius: 1.5rem;
     padding: 1rem 2rem;
@@ -174,7 +174,7 @@ html {
 }
 
 .input-group input:focus {
-    background-color: #7b8180;
+    background-color: #000000;
     border: 0.2rem solid #F5DD54;
 }
 
@@ -207,11 +207,11 @@ html {
 }
 
 .contact-btn:nth-child(1) {
-    background-color: #BB8493;
+    background-color: #e67272;
 }
 
 .contact-btn:nth-child(2) {
-    background-color: #FFC94A;
+    background-color: #67bdf7;
 }
 
 .logo-bottom {
@@ -221,6 +221,6 @@ html {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
-    background-color: #FFC94A;
+    background-color: #ff8600;
     box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.3);
-} 
+}
