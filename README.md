@@ -1,6 +1,4 @@
-**A signup and signin page for a travel agency using html ,css and javascript.**
-
-# HTML Landing Page Notes
+# A signup and signin page for a travel agency using html ,css and javascript.
 
 ## Document Declaration and Language Specification
 - `<!DOCTYPE html>`: Defines the document type and version of HTML.
