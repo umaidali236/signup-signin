@@ -40,3 +40,73 @@
 - `<button class="contact-btn" type="button">Create Account</button>`: Button for creating account.
 - `<div class="logo-bottom"></div>`: Empty div.
 - `<script src="script.js"></script>`: Links to external JavaScript file.
+  ```markdown
+
+
+## Universal Selector
+- `*`: Applies to all elements.
+    - `margin`, `padding`, `box-sizing`, `text-decoration`, `outline`: Resetting default styles.
+    - `font-family: "Cabin", sans-serif;`: Sets the font family for all elements.
+
+## HTML Element Specific Styles
+- `html`: Styles specific to the `<html>` element.
+    - `font-size: 62.5%;`: Sets the base font size to 10px (62.5% of 16px).
+
+## Class Selector Styles
+- `.container`: Styles for the container class.
+    - `width`, `height`, `background-color`, `display`, `justify-content`, `align-items`: Layout properties.
+
+- `.landing`: Styles for the landing class.
+    - `width`, `height`, `background`, `border-radius`, `box-shadow`, `position`: Layout and appearance properties.
+
+- `.navbar`: Styles for the navbar class.
+    - `position`, `top`, `left`, `width`, `height`: Positioning and size properties.
+
+- `.navigation`: Styles for the navigation class.
+    - `width`, `height`, `display`, `justify-content`, `align-items`, `padding`: Layout properties.
+
+- `.logo`: Styles for the logo class.
+    - `display`, `align-items`: Display and alignment properties.
+
+- `.circle`: Styles for the circle class.
+    - `width`, `height`, `background-color`, `border-radius`, `margin-right`: Appearance and spacing properties.
+
+- `.logo-text`: Styles for the logo-text class.
+    - `font-size`, `font-weight`, `letter-spacing`, `color`: Typography properties.
+
+- `.nav-item`: Styles for the nav-item class.
+    - `font-size`, `font-weight`, `color`, `transition`: Typography and transition properties.
+
+- `.banner`: Styles for the banner class.
+    - `position`, `top`, `left`, `transition`: Positioning and transition properties.
+
+- `.contact`: Styles for the contact class.
+    - `position`, `top`, `left`, `opacity`, `visibility`, `transition`: Positioning and transition properties.
+
+- `.input-group`: Styles for the input-group class.
+    - `width`, `height`, `margin`, `position`: Layout and positioning properties.
+
+- `.input-group input`: Styles for the input inside the input-group class.
+    - `width`, `height`, `background-color`, `border`, `border-radius`, `padding`, `color`, `font-size`: Input field properties.
+
+- `.input-group i`: Styles for the icon inside the input-group class.
+    - `position`, `right`, `top`, `transform`, `font-size`, `color`: Positioning and appearance properties.
+
+- `.btn-group`: Styles for the btn-group class.
+    - `width`, `height`, `display`, `justify-content`, `margin-top`: Layout properties.
+
+- `.contact-btn`: Styles for the contact-btn class.
+    - `width`, `height`, `border-radius`, `color`, `border`, `font-size`, `font-weight`, `cursor`, `background-color`: Button properties.
+
+- `.logo-bottom`: Styles for the logo-bottom class.
+    - `position`, `bottom`, `right`, `width`, `height`, `border-radius`, `background-color`, `box-shadow`: Positioning and appearance properties.
+
+## Pseudo-class Selector Styles
+- `.nav-item:hover`: Styles applied when hovering over a nav-item.
+    - `color`: Change color on hover.
+
+- `.hide .input-group:nth-child(1)`, `.hide .input-group:nth-child(2)`: Styles for hiding input-groups when a certain condition is met.
+
+- `.change .banner`, `.change .contact`: Styles for transitioning elements when a certain condition is met.
+    - `opacity`, `visibility`, `transition`: Transition properties.
+```
