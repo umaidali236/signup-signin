@@ -1,6 +1,6 @@
  **A signup and signin page for a travel agency using html ,css and javascript.**
 
-```markdown
+
 # HTML Elements Notes
 
 ## Doctype Declaration
@@ -56,4 +56,3 @@
                         - `<button class="contact-btn" type="button">Create Account</button>`: Button for creating account.
             - `<div class="logo-bottom"></div>`: Empty div.
     - `<script src="script.js"></script>`: Links to external JavaScript file.
-```
