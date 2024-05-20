@@ -110,3 +110,21 @@
 - `.change .banner`, `.change .contact`: Styles for transitioning elements when a certain condition is met.
     - `opacity`, `visibility`, `transition`: Transition properties.
 
+## Variables
+- `container`: Stores the reference to the element with class "container".
+- `joinBtn`: Stores the reference to the third anchor element inside ".navigation".
+- `homeBtn`: Stores the reference to the second anchor element inside ".navigation".
+- `loginBtn`: Stores the reference to the anchor element inside ".contact p".
+- `loginMsg`: Stores the reference to the span element inside ".contact p".
+- `loginHeader`: Stores the reference to the first h1 element inside ".contact".
+- `contactBtn`: Stores the reference to the second button with class "contact-btn".
+- `contactForm`: Stores the reference to the form element with class "contact-form".
+
+## Event Listeners
+- `joinBtn`: Listens for a click event on the "Join" button and adds the class "change" to the container element.
+- `homeBtn`: Listens for a click event on the "Home" button and removes the class "change" from the container element.
+- `loginBtn`: Listens for a click event on the "Log In" button and toggles the class "hide" on the container element.
+    - If the class is added, it updates text content and messages accordingly for login and signup scenarios.
+    - If the class is removed, it reverts the text content and messages to their original state.
+      
+
