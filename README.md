@@ -39,7 +39,7 @@
 - `<div class="logo-bottom"></div>`: Empty div.
 - `<script src="script.js"></script>`: Links to external JavaScript file.
   
-**Styles used in styles.css**
+# Styles used in styles.css
 
 ## Universal Selector
 - `*`: Applies to all elements.
@@ -108,7 +108,7 @@
 - `.change .banner`, `.change .contact`: Styles for transitioning elements when a certain condition is met.
     - `opacity`, `visibility`, `transition`: Transition properties.
 
-**JavaScript document**
+# JavaScript document
 
 ## Variables
 - `container`: Stores the reference to the element with class "container".
