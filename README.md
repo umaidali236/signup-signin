@@ -1,8 +1,6 @@
  **A signup and signin page for a travel agency using html ,css and javascript.**
 
-
-# Notes
-
+**Elements used in index.html**
 ## Head Section
 - `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"...>`: Links Font Awesome stylesheet from CDN.
 - `<link rel="preconnect" href="https://fonts.googleapis.com" />`: Preconnects to Google Fonts.
@@ -41,7 +39,7 @@
 - `<div class="logo-bottom"></div>`: Empty div.
 - `<script src="script.js"></script>`: Links to external JavaScript file.
   
-
+**Styles used in styles.css**
 
 ## Universal Selector
 - `*`: Applies to all elements.
@@ -109,6 +107,8 @@
 
 - `.change .banner`, `.change .contact`: Styles for transitioning elements when a certain condition is met.
     - `opacity`, `visibility`, `transition`: Transition properties.
+
+**JavaScript document**
 
 ## Variables
 - `container`: Stores the reference to the element with class "container".
