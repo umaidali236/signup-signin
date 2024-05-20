@@ -1,22 +1,9 @@
  **A signup and signin page for a travel agency using html ,css and javascript.**
 
 
-# HTML Elements Notes
-
-## Doctype Declaration
-- `<!DOCTYPE html>`: Defines the document type and version of HTML.
-
-## HTML Element
-- `<html lang="en">`: Root element of the HTML document, specifying the language as English.
+# Notes
 
 ## Head Section
-- `<head>`: Contains metadata and links to external resources.
-- `<meta charset="UTF-8">`: Specifies the character encoding.
-- `<meta http-equiv="X-UA-Compatible" content="IE=edge" />`: Sets the browser compatibility mode.
-- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Defines the viewport for responsive design.
-- `<title>Landing Page</title>`: Sets the title of the page.
-- `<link rel="icon" href="favicon.ico" type="image/x-icon">`: Links the favicon.
-- `<link rel="stylesheet" href="styles.css" />`: Links an external stylesheet.
 - `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"...>`: Links Font Awesome stylesheet from CDN.
 - `<link rel="preconnect" href="https://fonts.googleapis.com" />`: Preconnects to Google Fonts.
 - `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />`: Preconnects to Google Fonts.
