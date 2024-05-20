@@ -9,7 +9,6 @@
 - `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />`: Preconnects to Google Fonts.
 
 ## Body Section
-- `<body>`: Contains the content of the HTML document.
 - `<div class="container">`: Main container.
 - `<div class="landing">`: Landing section.
 - `<nav class="navbar">`: Navigation bar.
@@ -22,8 +21,6 @@
 - `<div class="banner">`: Banner section.
 - `<h1>Explore New Tours by <span>Travel With Us!</span></h1>`: Banner heading with span for emphasis.
 - `<div class="contact">`: Contact section.
-- `<h3>Start for free</h3>`: Subheading.
-- `<h1>Create New Account</h1>`: Heading.
 - `<p><span>Already have an account?</span> <a href="#">Log In</a></p>`: Paragraph with link.
 - `<form class="contact-form">`: Contact form.
 - `<div class="input-group">`: Input field group.
