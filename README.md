@@ -40,7 +40,7 @@
 - `<button class="contact-btn" type="button">Create Account</button>`: Button for creating account.
 - `<div class="logo-bottom"></div>`: Empty div.
 - `<script src="script.js"></script>`: Links to external JavaScript file.
-  ```markdown
+  
 
 
 ## Universal Selector
@@ -109,4 +109,4 @@
 
 - `.change .banner`, `.change .contact`: Styles for transitioning elements when a certain condition is met.
     - `opacity`, `visibility`, `transition`: Transition properties.
-```
+
