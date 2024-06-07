@@ -127,4 +127,3 @@
     - If the class is added, it updates text content and messages accordingly for login and signup scenarios.
     - If the class is removed, it reverts the text content and messages to their original state.
       
-
